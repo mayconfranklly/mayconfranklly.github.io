@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <!-- Required meta tags -->
@@ -10,20 +10,80 @@
     <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous" />
 
+    <link rel="stylesheet" href="./portfolio.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Maycon Castro</title>
 </head>
 
 <body>
-    <div id="root"></div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    <div id="main" style="background-image: url(./images/fundo.jpg);background-size: cover;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #82909e !important">
+            <a class="navbar-brand" href="#portfolio">Maycon Developer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tecnologias/Certificações</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <section id="portfolio">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./images/homem-de-negocios-com-os-bracos-cruzados-e-sorrindo_1139-677-removebg.png" class="img-fluid" alt="Responsive image"
+                        />
+                    </div>
+                    <div class="col-md-8">
+                    </div>
+                </div>
+            </section>
+            <section id="contatos">Contatos</section>
+            <section id="tecnologias">Tecnologias/Certificações</section>
+        </div>
+    </div>
+    <footer class="page-footer font-small blue pt-4" style="background-color: #82909e">
+        <div id="social-buttons" style="display: flex;justify-content:space-between; margin-left: 40%;margin-right: 40%;">
+            <div>
+                <a class="btn btn-social-icon btn-twitter icons" href="">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+            </div>
+            <div>
+                <a class="btn btn-social-icon btn-twitter icons" href="">
+                    <span class="fa fa-facebook-f"></span>
+                </a>
+            </div>
+            <div>
+                <a class="btn btn-social-icon btn-twitter icons" href="">
+                    <span class="fa fa-instagram"></span>
+                </a>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">&#169 2019 Copyright: Maycon Oliveira
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="./portfolio.js"></script>
 </body>
 
 </html>
